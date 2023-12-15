@@ -1,0 +1,57 @@
+### Problem 1: Data Types and Manipulation
+
+**Title:** Grocery List Organizer
+
+**Description:**
+You are tasked with writing a Python program to help organize a grocery list. The list contains items and their respective quantities. Your program should be able to handle input in the form of a string, where each item and its quantity are separated by a comma, and each pair is separated by a semicolon.
+
+**Input:**
+A string representing the grocery list. For example: `"apples:4,bananas:2,oranges:5; milk:1,bread:2; eggs:12"`
+
+**Output:**
+Your program should output a dictionary where the keys are the items and the values are the total quantities. The items should be sorted alphabetically.
+
+**Example:**
+```python
+input_string = "apples:4,bananas:2,oranges:5; milk:1,bread:2; eggs:12"
+# Your function should return the following dictionary:
+# {'apples': 4, 'bananas': 2, 'bread': 2, 'eggs': 12, 'milk': 1, 'oranges': 5}
+```
+
+**Constraints:**
+- Assume all quantities are positive integers.
+- The input string will always be in the correct format.
+
+---
+
+### Problem 2: Control Structures and Functions
+
+**Title:** Prime Number Checker
+
+**Description:**
+Write a Python function that checks whether a given number is prime or not. A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+
+**Input:**
+An integer `n`, where `n > 1`.
+
+**Output:**
+The function should return `True` if `n` is a prime number, and `False` otherwise.
+
+**Example:**
+```python
+# Your function should return True for prime numbers and False for non-prime numbers
+print(is_prime(5))  # Output: True
+print(is_prime(4))  # Output: False
+```
+
+**Constraints:**
+- The input will always be a positive integer greater than 1.
+- Optimize the function to handle large numbers efficiently.
+
+**Bonus:**
+Implement additional functionality to return a list of all prime numbers up to `n` if the second argument `list_primes` is set to `True`.
+
+```python
+# If the second argument is True, return a list of primes up to n
+print(is_prime(10, list_primes=True))  # Output: [2, 3, 5, 7]
+```
