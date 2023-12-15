@@ -1,0 +1,88 @@
+{
+    "algorithms":{
+        "by_data_structure":{
+            "arrays":{},
+            "linked_lists":{},
+            "stacks":{},
+            "queues":{},
+            "trees":{},
+            "graphs":{},
+            "hash_tables":{},
+            "heaps":{},
+            "strings":{},
+            "advanced_data_structures":{}
+        },
+        "by_topic": {
+            "dynamic_programming":{},
+            "famous_algorithms":{},
+            "greedy_algorithms":{},
+            "recursion":{},
+            "searching":{},
+            "sorting":{},
+            "math": {},
+            "bit_manipulation":{},
+            "geometry":{},
+            "probability":{},
+            "game_theory":{},
+            "divide_and_conquer":{},
+            "backtracking":{},
+            "counting":{},
+            "statistics":{},
+            "combinatorics":{},
+            "union_find":{},
+            "sliding_window":{},
+            "path_finding":{},
+            "two_pointers":{},
+            "sampling":{}
+        }
+    },
+    "python_language_and_scripting": {
+        "basic_python_syntax":{},
+        "functions_and_modules":{},
+        "file_handling":{},
+        "object_oriented_programming":{},
+        "scripting_and_automation":{},
+        "data_handling_manipulation":{},
+        "decorators":{},
+        "generators_and_iterators":{},
+        "context_managers":{},
+        "pythonic_code":{},
+        "python_2_vs_3":{},
+        "modules_and_packages":{},
+        "python_standard_library":{},
+        "metaclasses_and_class_factories":{},
+        "descriptors":{},
+        "dynamic_programming_and_closures":{},
+        "memory_management_and_python_internals":{},
+        "functional_programming_features":{},
+        "type_hinting":{},
+        "advanced_exception_handling":{},
+        "python_c_extensions":{},
+        "advanced_networking":{},
+        "data_serialization_and_marshaling":{},
+        "cython_and_PyPy":{},
+        "parallel_programming":{},
+        "virtual_environments":{},
+        "logging":{},
+        "packaging":{}
+    },
+    "unit_testing_methodology": {
+        "unit_testing_basics":{},
+        "testing_frameworks":{},
+        "test_driven_development":{},
+        "mocking_and_patching":{},
+        "integration_testing":{},
+        "code_coverage":{},
+        "best_practices_in_writing_test_cases":{},
+        "test_ai_and_ml_models":{},
+        "performance_testing":{},
+        "security_testing":{},
+        "testing_asynchronous_code":{},
+        "testing_database_interaction":{},
+        "data_quality_tests":{} 
+    },
+    "web_development":{}, // Skip... Neds a dedicated project
+    "data_analysis":{}, // Skip... Neds a dedicated project
+    "ml_principles":{}, // Skip... Neds a dedicated project
+    "debugging_and_tracing":{} // Skip... Neds a dedicated project
+}
