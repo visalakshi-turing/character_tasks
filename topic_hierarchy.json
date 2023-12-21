@@ -81,8 +81,42 @@
         "testing_database_interaction":{},
         "data_quality_tests":{} 
     },
-    "web_development":{}, // Skip... Neds a dedicated project
-    "data_analysis":{}, // Skip... Neds a dedicated project
-    "ml_principles":{}, // Skip... Neds a dedicated project
-    "debugging_and_tracing":{} // Skip... Neds a dedicated project
+    "web_development":{
+        "fundamentals": {
+            
+        },
+        "python_frameworks":{
+
+        },
+        "web_scraping":{},
+        "web_crawling":{},
+        "web_servers":{},
+        "web_security":{},
+        "web_performance":{},
+        "web_design":{},
+        "web_development_tools":{},
+        "web_services":{},
+        "web_development_best_practices":{},
+        "web_development_trends":{},
+        "web_development_interview_questions":{}
+    }, 
+    "data_analysis":{
+
+    }, 
+    "ml_principles":{
+
+    }, 
+    "debugging_and_tracing":{
+
+    },
+    "everyday_use_cases":{
+
+    },
+    "high_school":{
+        "math": {},
+        "physics": {},
+        "programming": {},
+        "accounting": {},
+        "economics": {}
+    }
 }
