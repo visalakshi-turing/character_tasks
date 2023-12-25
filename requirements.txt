@@ -1,0 +1,9 @@
+ipykernel
+pandas
+openai
+langchain
+
+nbformat
+google-auth
+google-api-python-client
+google-cloud-storage

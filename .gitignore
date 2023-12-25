@@ -1,0 +1,8 @@
+.env
+venv/
+creds/
+batch_3.csv
+files_list.json
+
+notebooks/*.ipynb
+notebooks/*.ipynb

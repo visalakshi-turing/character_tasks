@@ -1,0 +1,342 @@
+[
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1ik7ZqAsHwuylKY7AZD7FRqULUqXKYTaj",
+            "file_path": "arrays__query__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Could you demonstrate how to use a list comprehension to create a list of the first 10 prime numbers?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1HWkCCpExLJo2q3V8aG9O5YRFzRLMvkQE",
+            "file_path": "arrays__query__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm trying to find the longest palindrome in a string. Can you help me write a Python function for this?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1nypb2bwAVzC3FUd1nQ2BDNqjoOgErzIi",
+            "file_path": "arrays__query__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "What's the Python code to rotate a list to the left by a specified number of steps?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1LXKlVBqrdXkwDCG1MA-XC61WG9fidZme",
+            "file_path": "arrays__query__3.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can you show me how to use Python's itertools to generate all possible pairs from a list of items?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1jA7sz9MOOaKGfC3ttVt2VxWaL8j6mWD3",
+            "file_path": "arrays__query__4.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I use a binary heap to implement a priority queue in Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1I2iXLJi-BO_tI5tP3KFWXoerNlUFir04",
+            "file_path": "linked_lists__query__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I reverse a linked list in Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1r6aDyUhDkwjy7jZQqtPZ9h7VbZ_U26QP",
+            "file_path": "linked_lists__query__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can you show me how to implement a stack using two queues in Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/16AgW2Pq7rraXXT4GsgnjI4eQuAMMs7LV",
+            "file_path": "linked_lists__query__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "What's the Python code to serialize a binary tree to a string and then deserialize it back to a tree?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1Fb9r_ql2mzj8lI42hDgv2jOz9LwhHqzD",
+            "file_path": "linked_lists__query__3.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Could you provide a Python function that checks if a string has balanced parentheses using a stack?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1rvDEi9XZGscdUf3bEc22acJ2BKhf1iyj",
+            "file_path": "linked_lists__query__4.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need a Python function that finds the starting node of a cycle in a linked list. Can you help?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1b07DKfbsFzT_HUWLYYkjIfoUjUfAHqOl",
+            "file_path": "stacks__query__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Could you demonstrate how to implement a stack in Python using a linked list?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1-lWTHifHX75-W-GBFiYbFHsHZfNTnM0P",
+            "file_path": "stacks__query__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "What's the Python code to reverse a stack using only push and pop operations?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1L1FAd7ETmwcN6Oq2f3Uwl2eiFU7F5UDm",
+            "file_path": "stacks__query__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm trying to balance parentheses in expressions using a stack. Can you help me write a function for this?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1HoQ-0gPWj9iQyxvs1GGLrfkX4zs6PKm2",
+            "file_path": "stacks__query__3.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "How can I use a stack to convert an infix expression to postfix in Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/14ySY4SUSPjy91ifJUgjrP6UyYY3j1bJK",
+            "file_path": "stacks__query__4.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can you show me how to implement a stack class in Python that supports finding the current minimum element?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1WAZuguTvvO67sZsSIXyydZdUeaKOv5Ev",
+            "file_path": "queues__query__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Could you demonstrate how to implement a queue in Python to manage print jobs for a printer?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1YhgjvZ3yMLYm_FjHpSodf3Nh9chs6uSi",
+            "file_path": "queues__query__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "What's the Python code to rotate a queue by 'k' elements?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/140lJ2DUuujI519n5mIh48aVrAuzmFGwz",
+            "file_path": "queues__query__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm trying to implement a priority queue in Python for my task manager app. Can you show me how to add tasks with different priorities?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1jQ9GyMuf1t2oQ11X-gmvOjVuAU3-7MJD",
+            "file_path": "queues__query__3.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can you help me write a Python function that uses a queue to reverse the first 'k' elements?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1xXGyiBHOyzklvwfw_Zjj-y4QM5H3hNaQ",
+            "file_path": "queues__query__4.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need to simulate a customer service queue where VIP customers are served before others. How can I code this in Python using a queue?"
+            }
+        ]
+    }
+]

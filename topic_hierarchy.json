@@ -81,8 +81,87 @@
         "testing_database_interaction":{},
         "data_quality_tests":{} 
     },
-    "web_development":{}, // Skip... Neds a dedicated project
-    "data_analysis":{}, // Skip... Neds a dedicated project
-    "ml_principles":{}, // Skip... Neds a dedicated project
-    "debugging_and_tracing":{} // Skip... Neds a dedicated project
+    "web_development":{
+        "fundamentals": {
+            
+        },
+        "python_frameworks":{
+
+        },
+        "web_scraping":{},
+        "web_crawling":{},
+        "web_servers":{},
+        "web_security":{},
+        "web_performance":{},
+        "web_design":{},
+        "web_development_tools":{},
+        "web_services":{},
+        "web_development_best_practices":{},
+        "web_development_trends":{},
+        "web_development_interview_questions":{}
+    }, 
+    "data_analysis":{
+        "csv_handling": {},
+        "data_cleaning": {},
+        "data_grouping_aggregation": {},
+        "data_visualization": {},
+        "time_series_analysis": {},
+        "data_merging_joining": {},
+        "json_parsing": {},
+        "pivot_tables_usage": {},
+        "sql_query_with_pandas": {},
+        "duplicate_data_identification": {}
+    }, 
+    "ml_principles":{
+        "train_test_split": {},
+        "data_normalization_scaling": {},
+        "linear_regression_implementation": {},
+        "knn_classification": {},
+        "model_accuracy_assessment": {},
+        "cross_validation_application": {},
+        "feature_selection_techniques": {},
+        "hyperparameter_tuning": {},
+        "decision_trees_usage": {},
+        "neural_networks_implementation": {}
+    },
+
+    "deep_learning": {
+        "neural_network_concepts": {},
+        "optimization_algorithms": {},
+        "loss_functions": {},
+        "backpropagation_understanding": {},
+        "activation_functions": {},
+        "regularization_techniques": {},
+        "convolutional_neural_networks": {},
+        "recurrent_neural_networks": {},
+        "transfer_learning": {},
+        "deep_learning_frameworks": {}
+    },
+
+    "database": {
+        "relational_database_design": {},
+        "no_sql_database_concepts": {},
+        "sql_query_optimization": {},
+        "transaction_management": {},
+        "database_normalization": {},
+        "indexing_and_search_performance": {},
+        "data_replication_strategies": {},
+        "database_backup_and_recovery": {},
+        "cloud_database_solutions": {},
+        "database_security_best_practices": {}
+    },
+
+    "debugging_and_tracing":{
+
+    },
+    "everyday_use_cases":{
+
+    },
+    "high_school":{
+        "math": {},
+        "physics": {},
+        "programming": {},
+        "accounting": {},
+        "economics": {}
+    }
 }
