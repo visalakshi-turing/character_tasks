@@ -1,5 +1,8 @@
 ipykernel
 pandas
+matplotlib
+seaborn
+
 openai
 langchain
 
