@@ -1,0 +1,6 @@
+{"role": "User", "content": "Could you help me refactor this code snippet to use a lambda function instead of the traditional function definition? Here's the code: `def add(x, y): return x + y`.", "type": "markdown"}
+{"role": "Assistant", "content": "Sure, here is the code using the lambda function.", "type": "markdown"}
+{"role": "Assistant", "content": "add = lambda x, y: x + y\n\n# Example:\nresult = add(3, 5)\nprint(result)", "type": "code"}
+{"role": "User", "content": "How to create a divide lambda function by checking that the divider is not 0.", "type": "markdown"}
+{"role": "Assistant", "content": "Sure below is a divide lambda function which checks that divider is not 0", "type": "markdown"}
+{"role": "Assistant", "content": "divide = lambda x, y: x / y if y != 0 else \"Division by zero is undefined\"\n\n# Examples:\nresult = divide(10, 2)\nprint(result)\n\nresult = divide(10, 0)\nprint(result)", "type": "code"}
