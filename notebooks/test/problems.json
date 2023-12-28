@@ -1,0 +1,682 @@
+[
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1ik7ZqAsHwuylKY7AZD7FRqULUqXKYTaj",
+            "file_path": "arrays__query__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "How can I use Python to count the occurrences of each element in an array?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1HWkCCpExLJo2q3V8aG9O5YRFzRLMvkQE",
+            "file_path": "arrays__query__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Could you demonstrate how to implement a bubble sort on an array in Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1nypb2bwAVzC3FUd1nQ2BDNqjoOgErzIi",
+            "file_path": "arrays__query__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm looking for a way to find the intersection of two arrays in Python. Can you provide a code example?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1LXKlVBqrdXkwDCG1MA-XC61WG9fidZme",
+            "file_path": "arrays__query__3.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can you show me how to efficiently check if an array contains a certain element in Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1jA7sz9MOOaKGfC3ttVt2VxWaL8j6mWD3",
+            "file_path": "arrays__query__4.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "What's the Pythonic way to find the longest consecutive sequence in an array?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1I2iXLJi-BO_tI5tP3KFWXoerNlUFir04",
+            "file_path": "linked_lists__query__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I find the kth to last element of a singly linked list in Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1r6aDyUhDkwjy7jZQqtPZ9h7VbZ_U26QP",
+            "file_path": "linked_lists__query__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Could you show me how to rotate a linked list to the right by k places using Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/16AgW2Pq7rraXXT4GsgnjI4eQuAMMs7LV",
+            "file_path": "linked_lists__query__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "What's the best way to implement a method that returns the intersection point of two linked lists in Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1Fb9r_ql2mzj8lI42hDgv2jOz9LwhHqzD",
+            "file_path": "linked_lists__query__3.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can you provide a Python function to remove a given node from a linked list without having access to the head of the list?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1rvDEi9XZGscdUf3bEc22acJ2BKhf1iyj",
+            "file_path": "linked_lists__query__4.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "How would you write a Python function to add a new node at a specific position in a singly linked list?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1b07DKfbsFzT_HUWLYYkjIfoUjUfAHqOl",
+            "file_path": "stacks__query__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "How can I use a stack to reverse the order of elements in a queue using Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1-lWTHifHX75-W-GBFiYbFHsHZfNTnM0P",
+            "file_path": "stacks__query__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Could you guide me through the process of implementing a stack that also keeps track of the current median value with each push or pop?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1L1FAd7ETmwcN6Oq2f3Uwl2eiFU7F5UDm",
+            "file_path": "stacks__query__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "In Python, how would you use a stack to convert a binary number to its decimal equivalent?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1HoQ-0gPWj9iQyxvs1GGLrfkX4zs6PKm2",
+            "file_path": "stacks__query__3.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can you provide a Python function that uses a stack to reverse the individual words in a sentence while maintaining their order?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/14ySY4SUSPjy91ifJUgjrP6UyYY3j1bJK",
+            "file_path": "stacks__query__4.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I implement a stack in Python that can return the elements in sorted order without using any additional data structures?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1WAZuguTvvO67sZsSIXyydZdUeaKOv5Ev",
+            "file_path": "queues__query__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "How do I implement a circular queue in Python with a fixed size array?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1YhgjvZ3yMLYm_FjHpSodf3Nh9chs6uSi",
+            "file_path": "queues__query__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can you show me how to use a queue to solve the Josephus problem in Python?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/140lJ2DUuujI519n5mIh48aVrAuzmFGwz",
+            "file_path": "queues__query__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Could you demonstrate how to implement a double-ended queue (deque) in Python without using the collections module?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1jQ9GyMuf1t2oQ11X-gmvOjVuAU3-7MJD",
+            "file_path": "queues__query__3.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "In Python, how would you use a queue to efficiently calculate the moving average of a stream of numbers?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "query",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1xXGyiBHOyzklvwfw_Zjj-y4QM5H3hNaQ",
+            "file_path": "queues__query__4.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Can you guide me through writing a Python function that uses a queue to sort a list of integers with a bucket sort algorithm?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1N0vwfpd4CXluiGan3_kDKCVLCX_fzamn",
+            "file_path": "arrays__modification__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I have an array of strings representing different items. Could you help me sort the array alphabetically? Here's my array: items = ['banana', 'apple', 'cherry']."
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/13GA77bDDFVhRDFv0mFFFb5uEGXY8gLnl",
+            "file_path": "arrays__modification__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm working on a function to insert an element at a specific index in an array. Here's what I've got so far: def insert_element(arr, index, value): # ... Can you complete the function for me?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > arrays",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/14vuN9egi0syNf8VgV_1ytS4yN9KC-rY6",
+            "file_path": "arrays__modification__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need to count the occurrences of a particular element in an array. Here's my starting point: def count_occurrences(arr, x): # ... Could you provide the implementation?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1lAgJHca__wdL_WZzC53WKw21H-lowEjO",
+            "file_path": "linked_lists__modification__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I've got a linked list and I need to write a function that will return the kth to last element. Could you provide a Python function for that? Here's the structure of my linked list node: ```class ListNode: def __init__(self, value=0, next=None): self.value = value self.next = next```"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1838q9T1fGODcsQfGIF0uoVMB8yUR7cRS",
+            "file_path": "linked_lists__modification__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm trying to sort a linked list using merge sort, but I'm stuck on the splitting part. Can you show me how to split a linked list into two halves in Python? Here's what I have so far: ```class ListNode: def __init__(self, value=0, next=None): self.value = value self.next = next```"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > linked_lists",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/16plQ4yAC6F-ULbg3pxqhhNYLoXIHU1aj",
+            "file_path": "linked_lists__modification__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need to insert a new node into a sorted linked list such that the list remains sorted after insertion. Could you help me with the Python function for this? Assume the linked list node is defined as: ```class ListNode: def __init__(self, value=0, next=None): self.value = value self.next = next```"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1fsUYt6bf_Rc0gFcAf0wJu9d9m4IUqW4P",
+            "file_path": "stacks__modification__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm trying to implement a stack that also keeps track of the number of times each element has been pushed. Can you modify my Stack class to include this feature? Here's my current code:\n```python\nclass Stack:\n    def __init__(self):\n        self.elements = []\n\n    def push(self, item):\n        self.elements.append(item)\n\n    def pop(self):\n        if self.elements:\n            return self.elements.pop()\n        else:\n            raise IndexError('pop from an empty stack')\n```\n"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1GkkglGVB3CbPBL9LJ14xAp5GesBDvjKe",
+            "file_path": "stacks__modification__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I've written a stack class, but now I need to ensure that all elements are unique. Can you add a check in the push method to only add the item if it's not already in the stack? Here's what I have:\n```python\nclass Stack:\n    def __init__(self):\n        self._items = []\n\n    def push(self, item):\n        if item not in self._items:\n            self._items.append(item)\n\n    def pop(self):\n        if self._items:\n            return self._items.pop()\n        else:\n            raise IndexError('pop from an empty stack')\n```\n"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > stacks",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1iD2M6WWnOBytYIajcR4Ct9dJVxzGCRnl",
+            "file_path": "stacks__modification__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need to modify my stack class to allow peeking at the second item from the top, without popping it. Could you add this functionality? Here's my current implementation:\n```python\nclass Stack:\n    def __init__(self):\n        self.items = []\n\n    def push(self, item):\n        self.items.append(item)\n\n    def pop(self):\n        if not self.is_empty():\n            return self.items.pop()\n        raise IndexError('pop from an empty stack')\n\n    def is_empty(self):\n        return len(self.items) == 0\n\n    def peek(self):\n        if not self.is_empty():\n            return self.items[-1]\n        raise IndexError('peek from an empty stack')\n```\n"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1P06hPk4gJi4viZ9tkdrfTC5Im-yXRGWy",
+            "file_path": "queues__modification__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm trying to optimize my queue operations. Could you modify my Queue class to use a linked list instead of a list for better performance? Here's my current implementation: ```class Queue: def __init__(self): self.items = [] def enqueue(self, item): self.items.append(item) def dequeue(self): if not self.is_empty(): return self.items.pop(0) def is_empty(self): return len(self.items) == 0```"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1GRnS8xvOwsb50M-MiIPr0ERjPcF82z-P",
+            "file_path": "queues__modification__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need to track the maximum value in a queue at all times. Can you extend my Queue class to have a method that returns the current maximum value? Here's the basic Queue class: ```class Queue: def __init__(self): self.elements = [] def enqueue(self, item): self.elements.append(item) def dequeue(self): return self.elements.pop(0) if self.elements else None```"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > queues",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1lhcX8wUl_6iNW3UMgzoZ_EZaQBXJ6qCf",
+            "file_path": "queues__modification__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm implementing a customer service line simulation and need to add a timestamp to each customer in the queue. Could you update my enqueue method to also include the current time when a customer is added? Here's what I have: ```import time class Queue: def __init__(self): self.queue = [] def enqueue(self, customer): self.queue.append(customer) def dequeue(self): if self.queue: return self.queue.pop(0)```"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > trees",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1KWsFiH4pmfZOjzUcklFEdL-oywzWIHVm",
+            "file_path": "trees__modification__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I've written a function to find the minimum value in a binary search tree, but it's not handling the case where the tree is empty. Can you update the function to return None if the tree is empty? Here's my current code: def find_min(root): while root.left: root = root.left return root.value"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > trees",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1AfLZOOr4XIxpmzhGISzzXoATjE8cLeUb",
+            "file_path": "trees__modification__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm trying to write a function that will serialize a binary tree into a string and another function to deserialize that string back into the tree. Could you help me complete the serialize function? Here's what I have so far: def serialize(root): # Your code here def deserialize(s): # Your code here"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > trees",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1zxiQD6kBrgojEK8mNW5panISHbyIuCN5",
+            "file_path": "trees__modification__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I have a function that's supposed to count the number of leaf nodes in a binary tree, but it's not working correctly. Can you spot the mistake and fix it? Here's the function: def count_leaves(node): if not node: return 0 if not node.left and not node.right: return 1 else: return count_leaves(node.left) + count_leaves(node.right)"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > graphs",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1wLgAmlzrLrGlJUTEcvLKMOGIDlIdDpiM",
+            "file_path": "graphs__modification__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I'm trying to implement a topological sort in my graph class, but I'm stuck. Could you help me complete this function? Here's what I have so far: ```def topological_sort(graph): # graph is a dictionary representing an adjacency list in_degree = {u: 0 for u in graph} # Fill in the in_degree counts # ... # This should contain the sorted elements topo_order = [] # ... return topo_order```"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > graphs",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1qH7maNy3PtCl8ZmctqriayHHwj80u9B4",
+            "file_path": "graphs__modification__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I need to modify my graph's adjacency matrix to represent an undirected graph instead of a directed one. Here's my current code for creating the adjacency matrix: ```def create_adjacency_matrix(edges, n): matrix = [[0]*n for _ in range(n)] for (src, dest) in edges: matrix[src][dest] = 1 return matrix``` How should I change it to work for an undirected graph?"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > graphs",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1zc2HTgcNrzi7umLhwzf7bpCYOYv5VoUh",
+            "file_path": "graphs__modification__2.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I've written a function to find all paths between two nodes in a graph, but it's not returning the correct results. Can you spot the mistake and correct it? Here's the code: ```def find_all_paths(graph, start, end, path=[]): path = path + [start] if start == end: return [path] if start not in graph: return [] all_paths = [] for node in graph[start]: if node not in path: newpaths = find_all_paths(graph, node, end, path) for newpath in newpaths: all_paths.append(newpath) return all_paths```"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > hash_tables",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1ifxd92nKpQa_wIt2vBHgJAkXy0QAMDk5",
+            "file_path": "hash_tables__modification__0.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "I have a function that removes duplicates from a list using a hash table. Can you optimize it to run in O(n) time? Here's the current code: `def remove_duplicates(nums): \n    result = []\n    seen = set()\n    for num in nums:\n        if num not in seen:\n            seen.add(num)\n            result.append(num)\n    return result`"
+            }
+        ]
+    },
+    {
+        "metadata": {
+            "topic": "algorithms > by_data_structure > hash_tables",
+            "type": "modification",
+            "difficulty": "Easy",
+            "target_length": 1,
+            "colab_url": "https://colab.research.google.com/drive/1SNihUkDRgaoyKAnSWbhji6fBq9_Pz-Vb",
+            "file_path": "hash_tables__modification__1.ipynb",
+            "batch_idx": "test"
+        },
+        "messages": [
+            {
+                "role": "user",
+                "content": "Could you help me modify this hash table implementation to automatically resize when the load factor exceeds 0.7? Here's the starting point: `class HashTable:\n    def __init__(self):\n        self.capacity = 8\n        self.size = 0\n        self.buckets = [[] for _ in range(self.capacity)]\n    def hash(self, key):\n        return hash(key) % self.capacity\n    def insert(self, key, value):\n        # Insertion logic here\n    def check_load_factor(self):\n        return self.size / self.capacity > 0.7\n    def resize(self):\n        # Resize logic here`"
+            }
+        ]
+    }
+]

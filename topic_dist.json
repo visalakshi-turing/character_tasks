@@ -1,0 +1,171 @@
+{
+    "algorithms": {
+        "by_data_structure": {
+            "arrays": { "complexity": 2 },
+            "linked_lists": { "complexity": 3 },
+            "stacks": { "complexity": 3 },
+            "queues": { "complexity": 3 },
+            "trees": { "complexity": 5 },
+            "graphs": { "complexity": 7 },
+            "hash_tables": { "complexity": 4 },
+            "heaps": { "complexity": 5 },
+            "strings": { "complexity": 4 },
+            "advanced_data_structures": { "complexity": 8 }
+        },
+        
+        "by_topic": {
+            "dynamic_programming": { "complexity": 8 },
+            "famous_algorithms": { "complexity": 7 },
+            "greedy_algorithms": { "complexity": 6 },
+            "recursion": { "complexity": 5 },
+            "searching": { "complexity": 3 },
+            "sorting": { "complexity": 4 },
+            "math": { "complexity": 5 },
+            "bit_manipulation": { "complexity": 5 },
+            "geometry": { "complexity": 6 },
+            "probability": { "complexity": 6 },
+            "game_theory": { "complexity": 7 },
+            "divide_and_conquer": { "complexity": 7 },
+            "backtracking": { "complexity": 7 },
+            "counting": { "complexity": 5 },
+            "statistics": { "complexity": 5 },
+            "combinatorics": { "complexity": 7 },
+            "union_find": { "complexity": 5 },
+            "sliding_window": { "complexity": 4 },
+            "path_finding": { "complexity": 6 },
+            "two_pointers": { "complexity": 3 },
+            "sampling": { "complexity": 5 }
+        }
+    },
+
+    "python_language_and_scripting": {
+        "basic_python_syntax": { "complexity": 1 },
+        "functions_and_modules": { "complexity": 2 },
+        "file_handling": { "complexity": 3 },
+        "object_oriented_programming": { "complexity": 4 },
+        "scripting_and_automation": { "complexity": 3 },
+        "data_handling_manipulation": { "complexity": 4 },
+        "decorators": { "complexity": 5 },
+        "generators_and_iterators": { "complexity": 5 },
+        "context_managers": { "complexity": 5 },
+        "pythonic_code": { "complexity": 4 },
+        "python_2_vs_3": { "complexity": 2 },
+        "modules_and_packages": { "complexity": 3 },
+        "python_standard_library": { "complexity": 4 },
+        "metaclasses_and_class_factories": { "complexity": 7 },
+        "descriptors": { "complexity": 6 },
+        "dynamic_programming_and_closures": { "complexity": 6 },
+        "memory_management_and_python_internals": { "complexity": 7 },
+        "functional_programming_features": { "complexity": 6 },
+        "type_hinting": { "complexity": 3 },
+        "advanced_exception_handling": { "complexity": 5 },
+        "python_c_extensions": { "complexity": 8 },
+        "advanced_networking": { "complexity": 7 },
+        "data_serialization_and_marshaling": { "complexity": 4 },
+        "cython_and_PyPy": { "complexity": 7 },
+        "parallel_programming": { "complexity": 7 },
+        "virtual_environments": { "complexity": 3 },
+        "logging": { "complexity": 3 },
+        "packaging": { "complexity": 5 }
+    },
+
+    "unit_testing_methodology": {
+        "unit_testing_basics": { "complexity": 2 },
+        "testing_frameworks": { "complexity": 3 },
+        "test_driven_development": { "complexity": 5 },
+        "mocking_and_patching": { "complexity": 5 },
+        "integration_testing": { "complexity": 4 },
+        "code_coverage": { "complexity": 4 },
+        "best_practices_in_writing_test_cases": { "complexity": 5 },
+        "test_ai_and_ml_models": { "complexity": 7 },
+        "performance_testing": { "complexity": 6 },
+        "security_testing": { "complexity": 6 },
+        "testing_asynchronous_code": { "complexity": 6 },
+        "testing_database_interaction": { "complexity": 5 },
+        "data_quality_tests": { "complexity": 6 } 
+    },
+
+    "web_development": {
+        "fundamentals": { "complexity": 2 },
+        "python_frameworks": { "complexity": 4 },
+        "web_scraping": { "complexity": 3 },
+        "web_crawling": { "complexity": 3 },
+        "web_servers": { "complexity": 4 },
+        "web_security": { "complexity": 7 },
+        "web_performance": { "complexity": 5 },
+        "web_design": { "complexity": 4 },
+        "web_development_tools": { "complexity": 4 },
+        "web_services": { "complexity": 5 },
+        "web_development_best_practices": { "complexity": 5 },
+        "web_development_trends": { "complexity": 3 },
+        "web_development_interview_questions": { "complexity": 4 }
+    },
+
+    "data_analysis": {
+        "csv_handling": { "complexity": 2 },
+        "data_cleaning": { "complexity": 4 },
+        "data_grouping_aggregation": { "complexity": 4 },
+        "data_visualization": { "complexity": 5 },
+        "time_series_analysis": { "complexity": 6 },
+        "data_merging_joining": { "complexity": 4 },
+        "json_parsing": { "complexity": 3 },
+        "pivot_tables_usage": { "complexity": 5 },
+        "sql_query_with_pandas": { "complexity": 4 },
+        "duplicate_data_identification": { "complexity": 4 }
+    },
+
+    "ml_principles": {
+        "train_test_split": { "complexity": 3 },
+        "data_normalization_scaling": { "complexity": 4 },
+        "linear_regression_implementation": { "complexity": 4 },
+        "knn_classification": { "complexity": 5 },
+        "model_accuracy_assessment": { "complexity": 5 },
+        "cross_validation_application": { "complexity": 6 },
+        "feature_selection_techniques": { "complexity": 5 },
+        "hyperparameter_tuning": { "complexity": 6 },
+        "decision_trees_usage": { "complexity": 5 },
+        "neural_networks_implementation": { "complexity": 7 }
+    },
+
+    "deep_learning": {
+        "neural_network_concepts": { "complexity": 6 },
+        "optimization_algorithms": { "complexity": 7 },
+        "loss_functions": { "complexity": 6 },
+        "backpropagation_understanding": { "complexity": 8 },
+        "activation_functions": { "complexity": 5 },
+        "regularization_techniques": { "complexity": 6 },
+        "convolutional_neural_networks": { "complexity": 7 },
+        "recurrent_neural_networks": { "complexity": 7 },
+        "transfer_learning": { "complexity": 6 },
+        "deep_learning_frameworks": { "complexity": 5 }
+    },
+
+    "database": {
+        "relational_database_design": { "complexity": 6 },
+        "no_sql_database_concepts": { "complexity": 5 },
+        "sql_query_optimization": { "complexity": 7 },
+        "transaction_management": { "complexity": 6 },
+        "database_normalization": { "complexity": 5 },
+        "indexing_and_search_performance": { "complexity": 6 },
+        "data_replication_strategies": { "complexity": 6 },
+        "database_backup_and_recovery": { "complexity": 5 },
+        "cloud_database_solutions": { "complexity": 5 },
+        "database_security_best_practices": { "complexity": 7 }
+    },
+
+    "debugging_and_tracing": {
+        "complexity": 4
+    },
+
+    "everyday_use_cases": {
+        "complexity": 2
+    },
+    
+    "high_school": {
+        "math": { "complexity": 4 },
+        "physics": { "complexity": 4 },
+        "programming": { "complexity": 3 },
+        "accounting": { "complexity": 3 },
+        "economics": { "complexity": 3 }
+    }
+}
