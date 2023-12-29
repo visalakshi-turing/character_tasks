@@ -1,0 +1,64 @@
+
+{
+    "SoftwareCentricOccupations": {
+      "MostPopular": [
+        "Python Developer",
+        "Web Developer",
+        "Data Scientist",
+        "Mobile App Developer",
+        "Python DevOps Engineer",
+        "Front-End Developer",
+        "Backend Developer",
+        "Full-Stack Developer",
+        "Machine Learning Engineer",
+        "Cybersecurity Analyst"
+      ],
+      "Trending": [
+        "Artificial Intelligence Engineer",
+        "Cloud Engineer (Python-Focused)",
+        "Data Engineer",
+        "Site Reliability Engineer (SRE) with Python",
+        "Cybersecurity Analyst using Python",
+        "Data Visualization Developer",
+        "Robotics Engineer with Python Expertise",
+        "Python Content Creator (Technical Writing/Tutorials)",
+        "Data Analytics Consultant",
+        "Natural Language Processing Engineer"
+      ]
+    },
+    "NonTechnicalOccupations": {
+      "MostPopular": [
+        "Business Analyst",
+        "Marketing Manager",
+        "Financial Analyst",
+        "Project Manager",
+        "Product Manager",
+        "Operations Manager",
+        "Healthcare Administrator",
+        "Academic Researcher",
+        "Supply Chain Manager",
+        "Digital Content Strategist"
+      ],
+      "Trending": [
+        "Data Analyst",
+        "Growth Hacker",
+        "Bioinformatics Specialist",
+        "Environmental Scientist",
+        "User Experience Researcher",
+        "Data Journalist",
+        "Educational Technologist",
+        "Precision Agriculture Specialist",
+        "Smart City Planner",
+        "E-Commerce Analyst"
+      ]
+    },
+    "UserExperience": {
+        "Levels": [
+            "First Timer",
+            "Beginner",
+            "Intermediate",
+            "Advanced",
+            "Expert"
+        ]
+    }
+  }

@@ -1,0 +1,32 @@
+Highlevel_topic,Sublevel_topic,Status
+Basic scripting,Write simple code in Python,Covered
+Basic scripting,Write simple code in Javascript,To Cover
+Basic scripting,Other languages,Delayed
+Basic scripting,ML code snippets,Covered
+General coding help,Rewrite code using better formatting / best practises,To Cover
+General coding help,Refactor code,To Cover
+General coding help,Explain complex code snippets,To Cover
+General coding help,Add comments to code,To Cover
+General coding help,Do a code review,To Cover
+Write unit test,Cover different languages,Delayed
+Write unit test,Explain code with comments,To Cover
+Write unit test,Import dependencies,Covered
+Interview preparation,Algorithm problems,Covered
+Interview preparation,Explain the problem step by step,To Cover
+Interview preparation,Write optimal code,Covered
+Interview preparation,Explain areas where people usually make mistakes,To Cover
+Interview preparation,Explain alternative solutions and trade offs,To Cover
+Interview preparation,Debug and fix code,To Cover
+Interview preparation,System Design rounds,To Cover
+Interview preparation,Proactively ask follow up questions,To Cover
+Interview preparation,User asks AI help to take an Interview. AI takes an interview,To Cover
+Debugging and Troubleshooting,Debug error trace,To Cover
+Debugging and Troubleshooting,Troubleshooting failures in installation,Delayed
+DevOps,- mobile development frameworks,Delayed
+DevOps,- IDE integration,Delayed
+DevOps,- continous development frameworks,Delayed
+DevOps,- monitoring frameworks,Delayed
+DevOps,- cloud infrastructure,Delayed
+DevOps,- database integration,Covered
+Learning,Learn to program,To Cover
+Learning,Learn to use some tool / infra,To Cover
