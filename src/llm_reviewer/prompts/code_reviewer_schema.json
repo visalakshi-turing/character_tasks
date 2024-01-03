@@ -1,0 +1,34 @@
+{
+  "type": "object",
+  "properties": {
+    "feedback_text": {
+      "type": "object",
+      "description": "A set of structured key feedback points. Each point should point out a specific issue and how to fix it in exec summary fashion. Each point is a bullet point on a new line. Issues only, no praise. Group and classify issues into 3 sections by severity: from **critical** to **medium** to **minor** issues. Skip a key if a certain issue group is not present at all.\n\nAfter all 3 sections, add **Summary** section - A single sentence that explains what issues or groups of issues from *issues* contributed the most to the score based on rubrics. Keep it short.",
+      "properties": {
+        "critical_issues": {
+          "type": "string",
+          "description": "Feedback points for critical issues."
+        },
+        "medium_issues": {
+          "type": "string",
+          "description": "Feedback points for medium issues."
+        },
+        "minor_issues": {
+          "type": "string",
+          "description": "Feedback points for minor issues."
+        },
+        "summary": {
+          "type": "string",
+          "description": "A single sentence summary."
+        }
+      }
+    },
+    "score": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "A score between 1 and 5, where 1 is the worst and 5 is the best."
+    }
+  }
+}
+

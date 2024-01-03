@@ -1,0 +1,7 @@
+openai
+pytest
+pytest-cov
+jsonschema
+nbformat
+pandas
+fuzzywuzzy

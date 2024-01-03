@@ -1,0 +1,21 @@
+# Grading rubric
+
+### 5 - Excellent
+- Well Formatted
+- Correct
+- Optimal
+- Highly readable
+
+### 4 - Good
+- Correct but can be slightly optimized in terms of approach / speed / readability
+
+### 3 - Acceptable
+- The code is correct but can be significantly improved.
+- The code is not readable.
+
+### 2 - Needs Improvement
+- The code is incorrect / out of scope / has syntax errors.
+- Looks like it’s copied from ChatGPT.
+
+### 1 - Poor
+- Incomplete or Missing code.

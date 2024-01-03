@@ -1,0 +1,14 @@
+.venv
+venv
+wip.ipynb
+secrets.json
+__pycache__
+*.egg-info
+.coverage
+.pytest_cache
+
+# testing
+/coverage
+.cursorignore
+.vscode
+reports
