@@ -1,0 +1,24 @@
+# Grading rubric
+
+### 5 - Excellent
+- Authentic & Realistic (User) 
+- Well Formatted markdown for ease of consumption and understanding of the information(Assistant)
+- Maximum usefulness while being to the point (Assistant)
+- Free of mistakes (Assistant)
+- Tailored to the user & situation (Assistant)
+
+### 4 - Good
+- Clear but can be optimized with 1 or 2 minor issues.
+
+### 3 - Acceptable
+- You can still understand what’s being said but things can be phrased much better. 
+- Reasoning/Explanations are missing.
+- Can have some minor mistakes or 1 major mistake.
+
+### 2 - Needs Improvement
+- It’s hard to understand what’s being said. 
+- Has many minor language mistakes or more than 1 major mistake. 
+- Looks like it’s copied from ChatGPT.
+
+### 1 - Poor
+- Incomplete or Missing responses.

@@ -8,5 +8,5 @@ jsonl_conversations/
 stacktrace_data
 batch_3.csv
 files_list.json
-
-*/__pycache__/
+secrets.json
+**/__pycache__/
