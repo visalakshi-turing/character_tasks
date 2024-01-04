@@ -79,7 +79,7 @@ def populate_queue(queue: Queue, turns: list) -> None:
         queue.put((i, "code_reviewer", turn))
 
 
-def review_notebook(notebook, max_threads=1) -> dict[str, list[dict[str, Any]] | str]:
+def review_notebook(notebook, max_threads=1) -> dict[str, list[dict[str, Any]]]:
     """
     Review a notebook file and return a list of dictionaries, each representing a review result.
     Each dictionary in the list has two keys: 'turn' and 'review'.

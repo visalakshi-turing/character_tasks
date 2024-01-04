@@ -47,9 +47,9 @@ def create_report_folder(
 
 
 def generate_report(
-    review: dict[str, list[dict[str, Any]] | str],
-    ipynb_filename: str | None = None,
-    save_folder_path: str | None = None,
+    review: dict[str, list[dict[str, Any]]],
+    ipynb_filename: str  = None,
+    save_folder_path: str  = None,
 ) -> str:
     """
     Generate a markdown formatted review report.
