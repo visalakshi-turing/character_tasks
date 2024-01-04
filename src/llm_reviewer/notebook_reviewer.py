@@ -99,7 +99,7 @@ def populate_queue(queue: Queue, turns: list) -> None:
         queue.put((i, "code_reviewer", turn))
 
 
-def review_notebook(notebook, max_threads=1) -> dict[str, list[dict[str, Any]] | str]:
+def review_notebook(notebook, max_threads=1) -> dict[str, list[dict[str, Any]]]:
     """
     Review a notebook file and return a list of dictionaries, each representing a review result.
     Each dictionary in the list has two keys: 'turn' and 'review'.
@@ -220,27 +220,25 @@ def review_to_row(review, issue_level=None):
 
         # Process feedback_text dict into markdown formatted sections
         if isinstance(english_feedback, dict):
-            english_feedback = "\n".join(
-                [
-                    f"**{k.title()}**\n{v}"
-                    for k, v in english_feedback.items()
-                    if v.strip()
-                    and k in STR_TO_ISSUE_LEVEL
-                    and STR_TO_ISSUE_LEVEL[k].value >= issue_level.value
-                ]
-            )
+            english_feedback_lines = []
+            for k, v in english_feedback.items():
+                try:
+                    if v.strip() and k in STR_TO_ISSUE_LEVEL and STR_TO_ISSUE_LEVEL[k].value >= issue_level.value:
+                        english_feedback_lines.append(f"**{k.title()}**\n{v if v.strip() else 'None'}")
+                except Exception as e:
+                    print(k, v)
+            english_feedback = "\n".join(english_feedback_lines)
         elif issue_level is not None:
             raise Exception("Issue level is supported with dict issues only.")
         if isinstance(code_feedback, dict):
-            code_feedback = "\n".join(
-                [
-                    f"**{k.title()}**\n{v if v.strip() else 'None'}"
-                    for k, v in code_feedback.items()
-                    if v.strip()
-                    and k in STR_TO_ISSUE_LEVEL
-                    and STR_TO_ISSUE_LEVEL[k].value >= issue_level.value
-                ]
-            )
+            code_feedback_lines = []
+            for k, v in code_feedback.items():
+                try:
+                    if v.strip() and k in STR_TO_ISSUE_LEVEL and STR_TO_ISSUE_LEVEL[k].value >= issue_level.value:
+                        code_feedback_lines.append(f"**{k.title()}**\n{v if v.strip() else 'None'}")
+                except Exception as e:
+                    print(k, v)
+            code_feedback = "\n".join(code_feedback_lines)
         elif issue_level is not None:
             raise Exception("Issue level is supported with dict issues only.")
 
