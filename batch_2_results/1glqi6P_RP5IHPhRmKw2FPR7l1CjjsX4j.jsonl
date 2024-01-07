@@ -1,3 +1,0 @@
-{"role": "User", "content": "What's the command to deactivate an active Python virtual environment?", "type": "markdown"}
-{"role": "Assistant", "content": "You can simply use the command in the terminal, where the virtual environment is running:", "type": "markdown"}
-{"role": "Assistant", "content": "", "type": "code"}
