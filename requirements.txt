@@ -1,9 +1,17 @@
 ipykernel
+python-dotenv
+
+fuzzywuzzy
+python-Levenshtein
+
 pandas
+openpyxl
 matplotlib
 seaborn
+plotly
 
 openai
+llama-index
 langchain
 
 nbformat
