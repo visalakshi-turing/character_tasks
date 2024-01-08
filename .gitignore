@@ -10,3 +10,5 @@ batch_3.csv
 files_list.json
 secrets.json
 **/__pycache__/
+
+*.egg-info/
