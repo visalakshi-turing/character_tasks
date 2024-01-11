@@ -175,7 +175,6 @@ def delete_df_from_sheet(service_account_path, sheet_id, sheet_name):
     sheet_range = f"{sheet_name}!A:Z"  # Adjust the range A:Z as needed
     #values = [df.columns.tolist()] + df.values.tolist()
     # Make the API request
-    #body1 = {'values': values}
     result = service.spreadsheets().values().clear(
                 spreadsheetId=tracking_sheet_id,
                 range=sheet_range,
@@ -225,7 +224,6 @@ def init_review_tasks():
             tracking_sheet_id,
             s
         )],ignore_index=True)
-        #print("Number of tasks : ",len(task_df))
     for d in delivered_batches:          
         delivered_df = pd.concat([
             delivered_df,
