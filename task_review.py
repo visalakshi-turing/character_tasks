@@ -487,7 +487,7 @@ def main():
     schedule.every(1).minutes.do(add_tasks_to_review_queue)
     while True:
         schedule.run_pending()       
-        time.sleep(1*60) #Check hourly updates
+        time.sleep(1*60*60) #Check hourly updates
 
 if __name__ == "__main__":
     main()
