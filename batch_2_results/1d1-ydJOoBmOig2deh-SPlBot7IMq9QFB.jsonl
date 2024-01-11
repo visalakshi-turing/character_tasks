@@ -1,3 +1,0 @@
-{"role": "User", "content": "Can you provide an example of how to calculate the standard deviation with Python?", "type": "markdown"}
-{"role": "Assistant", "content": "You can calculate the standard deviation using the built-in statistics module, which provides a stdev function for this purpose.\n\nHere's an example:", "type": "markdown"}
-{"role": "Assistant", "content": "# Example data\ndata = [10, 12, 23, 23, 16, 23, 21, 16]\n\n# Calculate standard deviation\nstd_dev = statistics.stdev(data)\n\nprint(\"Standard Deviation:\", std_dev)", "type": "code"}
