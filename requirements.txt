@@ -10,11 +10,6 @@ matplotlib
 seaborn
 plotly
 
-openai
-llama-index
-langchain
-tiktoken
-
 nbformat
 google-auth
 google-api-python-client
