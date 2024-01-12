@@ -1,0 +1,30 @@
+Evaluate the following LLM-generated output to determine its accuracy and relevance to the task. Consider the provided context and apply the given check rules to assess the output.
+
+LLM-Generated Output:
+# LLM_OUTPUT_START
+@LLM_OUTPUT@
+# LLM_OUTPUT_END
+
+Expected Output:
+# EXPECTED_LLM_OUTPUT_START
+@EXPECTED_OUTPUT@
+# EXPECTED_LLM_OUTPUT_END
+
+Task Context:
+# TASK_CONTEXT_START
+@TASK_CONTEXT@
+# TASK_CONTEXT_END
+
+Check Rules:
+# CHECK_RULES_START
+@CHECK_RULES@
+# CHECK_RULES_END
+
+Based on the comparison, determine whether the LLM's output meets the expectations as per the check rules given the context. Provide a detailed evaluation as the reason and based on it summarize the status of the test as either 'pass' or 'fail'. Your explanation should include specific instances from the output that demonstrate compliance with or deviation from the expected results.
+
+Your analysis response format must be a JSON adhering to the following JSON schema:
+```json
+{"reason": "explanation of the failure", "status": "pass/fail"}
+```
+
+Reply in the specified JSON format ->

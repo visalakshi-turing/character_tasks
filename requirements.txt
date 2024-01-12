@@ -1,10 +1,14 @@
 ipykernel
+python-dotenv
+
+fuzzywuzzy
+python-Levenshtein
+
 pandas
+openpyxl
 matplotlib
 seaborn
-
-openai
-langchain
+plotly
 
 nbformat
 google-auth
