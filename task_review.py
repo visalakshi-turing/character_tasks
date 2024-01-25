@@ -217,7 +217,7 @@ def init_review_tasks():
     num_delivered_batches = len(delivered_batches)
     if(is_first_run==0):
         current=pd.DataFrame(columns=['task_link','assigned_to_email','completion_date','reviewer_email','review_status','total_score','status_score','age_score','count_score','quality_score'])
-    for s in review_batches:        
+    for s in review_batches:      
         task_df = pd.concat([
             task_df,
         download_sheets_as_df(
@@ -226,14 +226,15 @@ def init_review_tasks():
             s
         )],ignore_index=True)
         #print("Number of tasks : ",len(task_df))
-    for d in delivered_batches:          
+    for d in delivered_batches:         
         delivered_df = pd.concat([
             delivered_df,
         download_sheets_as_df(
             service_account_path,
             delivery_sheet_id,
             d
-        )],ignore_index=True)    
+        )],ignore_index=True)
+        #print("Number of tasks : ",len(delivered_df))   
     oldReviews = pd.concat([
                 download_sheets_as_df(
                     service_account_path,
@@ -264,7 +265,7 @@ def init_review_tasks():
     #review_df1['task_exists'] = review_df1['task_link'].isin(revList).astype(int) #Remove tasks in current Review sheet
     review_df = review_df1[~(review_df1['task_exists']==1)]
     review_df=review_df.assign(total_score=0,status_score=0,age_score=1,count_score=0,quality_score=0)
-    pd.to_datetime(review_df['completion_date'], infer_datetime_format=True,errors='coerce',dayfirst=False,yearfirst=False).fillna('2024-01-01')
+    review_df['completion_date']=pd.to_datetime(review_df['completion_date'], infer_datetime_format=True,errors='coerce',dayfirst=False,yearfirst=False).fillna('2024-01-01')
     df=review_df.groupby(['assigned_to_email','completion_date']).agg({'task_link':'count'}).sort_values(by=['completion_date','task_link'],ascending=[False,False]).reset_index(level=['assigned_to_email','completion_date'])
     print('Number of unique members(tasks) worked on current batch tasks :',df['assigned_to_email'].nunique())
     members = df['assigned_to_email'].unique()
@@ -273,6 +274,8 @@ def init_review_tasks():
     review_sample = int(round(total_tasks*0.3,2))
     print('Number of tasks to be considered for review ',review_sample)
     print('Number of tasks pending during initializing : ',tasks_pending)
+    review_df.sort_values(by='completion_date',inplace=True,ascending=False)
+    #print(review_df['completion_date'].head(10))
     current = current.assign(total_score=0,status_score=0,age_score=1,count_score=0,quality_score=0)
     if(current is not None and len(current.index)!=0):
         current = current.replace('', np.nan).dropna(how='all') #Drop empty rows
@@ -282,8 +285,11 @@ def init_review_tasks():
             pending = current[~(mask)]
             print('Number of reviews completed: ',len(latest),' and review pending -  ',len(current)-len(latest))
             tasks_pending = len(pending)
+            #print('pending df length ',tasks_pending)
             if(tasks_pending>0 and tasks_pending<=review_sample):
                 tasks_pending=review_sample-tasks_pending
+            if(tasks_pending==0):
+                tasks_pending=review_sample
             #print('In if pending : ',tasks_pending)
         review_sheet = review_sheet.drop(review_sheet.index)
         review_sheet.assign(total_score=0,status_score=0,age_score=1,count_score=0,quality_score=0)
@@ -364,23 +370,25 @@ def add_tasks_to_review_queue():
             for index,row in current_completed.iterrows():                   
                 newRow = {'task_link':row['task_link'],'assigned_to_email':row['assigned_to_email'],'completion_date':row['completion_date'],'reviewer_email':row['reviewer_email'],'review_status':row['review_status'],
                         'total_score':0,'status_score':-10000,'age_score':1,'count_score':1,'quality_score':0}
-                review_sheet.loc[len(review_sheet.index)] = newRow                    
-                count=count+1
+                if(row['task_link'] not in set(review_sheet['task_link'])):
+                    review_sheet.loc[len(review_sheet.index)] = newRow                    
+                    count=count+1
             for index,row in current_pending.iterrows():                   
                 newRow = {'task_link':row['task_link'],'assigned_to_email':row['assigned_to_email'],'completion_date':row['completion_date'],'reviewer_email':"",'review_status':"",
                 'total_score':0,'status_score':0,'age_score':1,'count_score':1,'quality_score':0}
-                review_sheet.loc[len(review_sheet.index)] = newRow                   
-                count=count+1
+                if(row['task_link'] not in set(review_sheet['task_link'])):
+                    review_sheet.loc[len(review_sheet.index)] = newRow                   
+                    count=count+1
             #print('Added tasks in current review sheet to review frame and pending added - ',len(current))
             #print('Data read from sheet ----------------------')
             #print(review_sheet.head(20))
             if(tasks_pending==0 or tasks_pending>review_sample):
                 add_df_to_review_sheet()
                 return   
-        #print(' Add tasks to review frame now - ',tasks_pending)        
+        print(' Add tasks to review frame now - ',tasks_pending)        
         count=0
         while(count<tasks_pending):
-            m=0
+            m=0           
             for person in members:  #select one task for each member            
                 for index,row in review_df.iterrows():                              
                     if row['assigned_to_email']==person and (person not in set(review_sheet['assigned_to_email']) and row['task_link'] not in set(review_sheet['task_link'])):        
@@ -405,12 +413,12 @@ def add_tasks_to_review_queue():
                 oldReviews['Language Quality'] = oldReviews['Language Quality'].astype(int)            
                 oldReviews['time'] = pd.to_datetime(oldReviews['Timestamp'])
                 now = pd.Timestamp.now()
-                week_ago = now - pd.Timedelta(weeks=1)
-                oldReviews_week = oldReviews.loc[oldReviews['time'] >= week_ago] 
+                week_ago = now - pd.Timedelta(weeks=1) 
                 oldReviews['quality_score'] = oldReviews[['Language Quality','Code Quality']].mean(axis=1)
                 oldReviews = oldReviews.sort_values(by=['quality_score','time'],ascending=[True,True])
                 oldReviews = oldReviews[oldReviews['quality_score']<4.0]
-                old_members = oldReviews_week['Email Address'].unique()       
+                oldReviews = oldReviews.loc[oldReviews['time'] >= week_ago]
+                old_members = oldReviews['Email Address'].unique()       
                 old_list = list(set(members).intersection(old_members)) #old contributors in current task list
                 print('Number of contributors(tasks) with low code quality :',len(old_list))
                 old=0
@@ -436,8 +444,11 @@ def add_tasks_to_review_queue():
                 else:
                     review_df['count_score'] = review_df.groupby(['assigned_to_email','completion_date'])['task_link'].transform('count')
                     #df=review_df.groupby(['assigned_to_email','completion_date']).agg({"countScore":{"task_link":"count"}}).sort_values(by=['countScore'],ascending=[False]).reset_index(level=['assigned_to_email','completion_date'])
-                    review_df=review_df[(review_df['count_score']>=4)]
-                    mem = review_df['assigned_to_email'].unique()                
+                    high_df=review_df[(review_df['count_score']>=4)]
+                    now = pd.Timestamp.now()
+                    week_ago = now - pd.Timedelta(weeks=2)
+                    high_df = high_df.loc[high_df['completion_date'] >= week_ago]
+                    mem = high_df['assigned_to_email'].unique()                
                     print('Number of contributors with high number of tasks :',len(mem))
                     high=0
                     for person in mem:
@@ -447,9 +458,10 @@ def add_tasks_to_review_queue():
                                 'total_score':row['total_score'],'status_score':row['status_score'],'age_score':row['age_score'],'count_score':row['count_score']+1,'quality_score':row['quality_score']}
                                 review_sheet.loc[len(review_sheet.index)] = newRow    
                                 count=count+1
-                                high=high+1                      
-                            if(count>=tasks_pending):
-                                break
+                                high=high+1
+                                break                      
+                            #if(count>=tasks_pending):
+                            #    break
                         if(count>=tasks_pending):
                             break
                     #Update review sheet and complete current iteration now
@@ -487,7 +499,7 @@ def main():
     schedule.every(1).minutes.do(add_tasks_to_review_queue)
     while True:
         schedule.run_pending()       
-        time.sleep(1*60) #Check hourly updates
+        time.sleep(1*60*60) #Check hourly updates
 
 if __name__ == "__main__":
     main()
