@@ -496,7 +496,7 @@ def add_tasks_to_review_queue():
 def main():
     print("Execute the script to add completed tasks for review....")
     #schedule.every(1).minutes.do(init_review_tasks)
-    schedule.every(1).minutes.do(add_tasks_to_review_queue)g
+    schedule.every(1).minutes.do(add_tasks_to_review_queue)
     while True:
         schedule.run_pending()       
         time.sleep(1*60*60) #Check hourly updates
